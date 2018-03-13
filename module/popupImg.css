@@ -1,0 +1,40 @@
+.popupImg_mask{
+  transition:.5S;
+  background:#000;
+  opacity:0;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+}
+.popupImg_boxStyle{
+  transition:opacity 1S,z-index .5s;
+  background:#fff;
+  opacity:0;
+  position:fixed;
+  z-index:-1;
+  /* height:500px; */
+  border-radius:3%;
+  /* top:0;
+  left:0; */
+}
+.popupImg_btn{
+  text-align:center;
+  /* background:skyblue; */
+  font-size:30px;
+  height:50%;
+}
+.popupImg_btnTex{
+  background:skyblue;
+  font-weight:bolder;
+  padding:4% 10%;
+  border-radius:7%;
+  position:relative;
+  top:1%;
+}
+.popupImg_img{
+  width:0;
+  height:0;
+  padding:20px;
+  transition:.5S;
+}
